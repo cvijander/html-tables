@@ -23,3 +23,24 @@ caption {
     padding: 1rem 0;
     color: #ccae51;
 }
+
+th {
+    text-align: left;
+    background-color: #ccae51;
+    color: white;
+
+}
+
+thead tr:first-child, 
+thead tr:first-child th {
+    background-color: #3f2b21;
+    text-align: center;
+    border-left: 1px solid white;
+    font-size: 1.3rem;
+}
+
+tfoot tr {
+    background-color: #3f2b21;
+    color: white;
+    font-weight: bold;
+}
