@@ -2,14 +2,16 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.retail {
-    background-color: red;
+table {
+    border: 1px solid #3f2b21;
+    border-collapse:collapse ;
 }
 
-.case {
-    background-color: blue;
+td, th {
+    padding: 0.5rem;
+    border-bottom:  1px solid #ccae51;
 }
 
-.item {
-    background-color: yellow;
+tfoot tr:last-child td {
+    border-bottom: none;
 }
