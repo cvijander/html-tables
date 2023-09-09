@@ -44,3 +44,12 @@ tfoot tr {
     color: white;
     font-weight: bold;
 }
+
+tbody tr:nth-child(even) {
+    background-color: rgba(204,174,81,0.2);
+
+}
+
+.tablescroll {
+    overflow: auto;
+}
